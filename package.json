@@ -13,7 +13,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build_all": "node clients/lib-build",
-    "deploy": "node clients/forgerocket-ignite-cli-wizzard.mjs"
+    "deploy": "node clients/forgerocket-ignite-cli-wizzard.mjs",
+    "docs_serve": "cd docs && python -m SimpleHTTPServer 3000",
+    "docs_generate": "npx docsify-cli generate"
   },
   "repository": {
     "type": "git",
