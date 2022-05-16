@@ -6,7 +6,7 @@
   <p align="center">
     Ignite Framework lets you build lean JavaScript library bundles which run in the <a href='https://backstage.forgerock.com/docs/idcloud/latest/home.html'>ForgeRock Identity Cloud</a> Decision Nodes!
     <br />
-    <a href="https://github.com/adam-cyclones/Ignite/docs"><strong>Explore the docs »</strong></a>
+    <a href="https://adam-cyclones.github.io/Ignite/#/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/adam-cyclones/Ignite/issues">Report Bug</a>
