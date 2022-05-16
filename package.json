@@ -1,0 +1,48 @@
+{
+  "name": "cs_forge_rocket",
+  "version": "1.0.0",
+  "description": "A modern JavaScript utility library designed for ForgeRock decision nodes, delivering modularity, performance & extras to tame the Rhino!",
+  "main": "ignite.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "config": {
+    "outDirName": "target",
+    "outFileName": "ForgeRocket"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_all": "node clients/lib-build",
+    "deploy": "node clients/forgerocket-ignite-cli-wizzard.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.forgerock.org:7999/cs/cs_forge_rocket.git"
+  },
+  "keywords": [
+    "utility",
+    "forgerock"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "fast-glob": "3.2.11",
+    "frodo": "git+https://github.com/rockcarver/frodo.git",
+    "p-retry": "5.1.0",
+    "prompts": "2.4.2",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "uglify-js": "3.15.4",
+    "uglifyjs-folder": "3.1.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge-and-include-globally": "2.3.4"
+  },
+  "author": "Adam Crockett",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.38"
+  }
+}

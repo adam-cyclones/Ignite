@@ -1,0 +1,15 @@
+{
+  "name": "@forgerocket/fuel-client-script",
+  "description": "Development package for ForgeRocket fuel",
+  "version": "1.0.0",
+  "author": "Adam Crockett",
+  "directories": {
+    "doc": "docs"
+  },
+  "config": {
+    "forgerocket": {
+      "cli-name": "$npm_package_name ($npm_package_version)",
+      "cli-description": "Interact with the ForgeRock identity Clouds Vue based components"
+    }
+  }
+}

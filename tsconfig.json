@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ES5",
+        "outDir": "target_old",
+        "removeComments": true,
+        "lib": [
+            "DOM",
+            "ES2015"
+        ]
+    },
+    "exclude": [
+        "target_old"
+    ]
+}
